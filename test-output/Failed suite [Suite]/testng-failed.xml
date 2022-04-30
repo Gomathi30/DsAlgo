@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="tests.Queue">
+        <methods>
+          <include name="navigateQueueQueueOp"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.Queue -->
+      <class name="tests.Graph">
+        <methods>
+          <include name="setup"/>
+          <include name="movetoGraphExp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.Graph -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+  <test thread-count="5" name="Test1(failed)(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="tests.Queue">
+        <methods>
+          <include name="navigateQueueQueueOp"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.Queue -->
+      <class name="tests.Graph">
+        <methods>
+          <include name="setup"/>
+          <include name="movetoGraphExp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.Graph -->
+    </classes>
+  </test> <!-- Test1(failed)(failed) -->
+  <test thread-count="5" name="Test2(failed)(failed)">
+    <parameter name="browserName" value="edge"/>
+    <classes>
+      <class name="tests.Queue">
+        <methods>
+          <include name="navigateQueueQueueOp"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.Queue -->
+      <class name="tests.Graph">
+        <methods>
+          <include name="setup"/>
+          <include name="movetoGraphExp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.Graph -->
+    </classes>
+  </test> <!-- Test2(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
